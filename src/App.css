@@ -1,0 +1,16 @@
+#root {
+  text-align: center;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.card__top {
+  border-radius: 0.07em 0.07em 0 0 !important;
+}
+
+.card__bottom {
+  border-radius: 0 0 0.07em 0.07em !important;
+}

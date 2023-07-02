@@ -1,0 +1,7 @@
+.bg-bus{
+    background-image: url('../../../public/images/bus.png');
+    width: 100px;
+    height: 77px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
