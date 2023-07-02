@@ -1,0 +1,25 @@
+/* tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom colors */
+@layer utilities {
+  .bg-primary {
+    background-color: #433af1;
+  }
+  .text-secondary {
+    color: #00ff00;
+  }
+  .text-gray-900 {
+    color: #262626;
+  }
+  .text-primary {
+    color: #072e59;
+  }
+  /* Define more custom colors here */
+}
+
+/* primary: "#fffff", // Can always use CSS variables too e.g. "var(--color-primary)",
+      secondary: "#333333",
+      brand: "#243c5a", */
