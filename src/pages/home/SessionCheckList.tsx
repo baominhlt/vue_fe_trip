@@ -38,7 +38,7 @@ const items = [
     id: 9,
   },
   {
-    name: 'Giấy tờ tùy thân',
+    name: 'Hộ chiếu',
     id: 10,
   },
   {
@@ -50,7 +50,7 @@ const items = [
     id: 12,
   },
   {
-    name: 'Quần áo ấm',
+    name: 'Đồ chống nắng',
     id: 13,
   },
   {
