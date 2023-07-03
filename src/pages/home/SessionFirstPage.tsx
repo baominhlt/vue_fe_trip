@@ -57,7 +57,7 @@ export default function SessionFirstPage() {
                     hideMonth
                     endAtZero
                     size="large" // Options (Default: medium): large, medium, small, extra-small.
-                    endAt={"2023-06-15 18:00:00"}
+                    endAt={"2023-07-14 00:00:00"}
                     renderer={renderer}
 
                   // Date/Time
