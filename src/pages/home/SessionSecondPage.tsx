@@ -58,7 +58,7 @@ export default function SessionSecondPage() {
             <figure className='absolute inset-0'>
                 <img src='/images/bg-sp2.png' alt='bg' className='w-full h-full object-cover'/>
             </figure>
-            <div className='custom-shape-divider-top-1685952780 h-100vh bg-transparent relative'>
+            <div className='custom-shape-divider-top-1685952780 lg:h-100vh h-200vh bg-transparent relative'>
                 <div className='w-full'>
                     <div className='container flex items-center justify-center flex-col h-[100vh]'>
                         <p
@@ -105,7 +105,13 @@ export default function SessionSecondPage() {
                                 <Slider
                                     style={{margin: 4, marginTop: -4}}
                                     range
-                                    value={[0, 100]}
+                                    value={[0, 40]}
+                                    disabled
+                                />
+                                <Slider
+                                    style={{margin: 4, marginTop: -3}}
+                                    range
+                                    value={[60, 100]}
                                     disabled
                                 />
                             </div>
@@ -116,7 +122,7 @@ export default function SessionSecondPage() {
                             </div>
                         </div>
                         <div className='flex justify-center lg:mt-8 mt-2 flex-wrap lg:12'>
-                            <div className='place-center lg:w-1/4 w-full flex mx-4'>
+                            <div className='place-center lg:w-3/12 w-full flex mx-3'>
                                 <div className='title-main flex justify-start flex-col items-center'>
                                     <h3 className='lg:text-2xl font-bold text-base m-0 text-center lg:mb-1'>
                                         Địa điểm tập trung:
@@ -128,7 +134,7 @@ export default function SessionSecondPage() {
                                     </p>
                                 </div>
                             </div>
-                            <div className='place-center lg:w-1/4 w-full mx-4'>
+                            <div className='place-center lg:w-5/12 w-full mx-3'>
                                 <div className='title-main flex justify-start flex-col items-center'>
                                     <h3 className='lg:text-2xl font-bold m-0 text-center lg:mb-1 text-base'>
                                         Liên hệ hỗ trợ:{' '}
@@ -143,7 +149,7 @@ export default function SessionSecondPage() {
                                     </p>
                                 </div>
                             </div>
-                            <div className='place-center lg:w-1/4 w-full mx-4'>
+                            <div className='place-center lg:w-3/12 w-full mx-3'>
                                 <div className='title-main flex justify-start flex-col items-center'>
                                     <h3 className='lg:text-2xl font-bold text-base m-0 text-center lg:mb-1'>
                                         Thời gian khởi hành:

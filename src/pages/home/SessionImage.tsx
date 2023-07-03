@@ -5,50 +5,38 @@ const SessionImage = () => {
     <div className='container mx-auto'>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         <figure className="select-none">
-          <img src="/images/a14.jpg"/>
+          <img src="/images/namninhchida_1.png"/>
         </figure>
         <figure className="select-none">
-          <img src="/images/a5.jpg"/>
+          <img src="/images/namninhchida_2.jpg"/>
         </figure>
         <figure className="select-none">
-          <img src="/images/a4.jpg"/>
+          <img src="/images/namninhtrungquoc_main.jpg"/>
         </figure>
         <figure className="select-none">
-          <img src="/images/a7.jpg"/>
-        </figure>
-        
-        <figure className="select-none">
-          <img src="/images/a13.jpg"/>
+          <img src="/images/thaibinhcotran_1.jpeg"/>
         </figure>
         <figure className="select-none">
-          <img src="/images/a2.jpg"/>
+          <img src="/images/thaibinhcotran_2.png"/>
         </figure>
         <figure className="select-none">
-          <img src="/images/a12.jpg"/>
+          <img src="/images/thaibinhcotran_3.jpg"/>
         </figure>
         <figure className="select-none">
-          <img src="/images/a1.jpg"/>
+          <img src="/images/thaibinhcotran_4.jpg"/>
         </figure>
         <figure className="select-none">
-          <img src="/images/a3.jpg"/>
+          <img src="/images/thaibinhcotran_5.jpg"/>
         </figure>
         <figure className="select-none">
-          <img src="/images/a6.jpg"/>
-        </figure>
-       
-        <figure className="select-none">
-          <img src="/images/a8.jpg"/>
+          <img src="/images/thaibinhcotran_6.jpg"/>
         </figure>
         <figure className="select-none">
-          <img src="/images/a9.jpg"/>
+          <img src="/images/congvienthanhtuson_1.jpeg"/>
         </figure>
         <figure className="select-none">
-          <img src="/images/a10.jpg"/>
+          <img src="/images/congvienthanhtuson_2.jpg"/>
         </figure>
-        <figure className="select-none">
-          <img src="/images/a11.jpg"/>
-        </figure>
-       
       </div>
     </div>
   </div>
