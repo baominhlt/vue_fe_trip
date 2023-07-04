@@ -194,7 +194,7 @@ export default function Index() {
                 <SessionCheckList/>
             </div>
             <div className="relative" ref={dresscodePage}>
-                <img src='/images/decore.jpg' alt='decore' className='w-full h-full object-cover'/>
+                <img src='/images/decore.png' alt='decore' className='w-full h-full object-cover'/>
             </div>
             <div className="place_page" ref={discoverPage}>
                 <SessionPlaceInfo/>

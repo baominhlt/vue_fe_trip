@@ -33,7 +33,7 @@ export default function SessionPlaceInfo() {
                             trang phục Miêu tộc…. để check in sống ảo.
                         </p>
                         <div className='flex justify-center gap-2'>
-                            <a href='https://samtenhills.vn/' target='_blank'>
+                            <a href='https://www.ddgx.cn/show/61774.html' target='_blank'>
                                 <Button size='lg' color='white'>
                                     Khám phá
                                 </Button>
@@ -67,7 +67,7 @@ export default function SessionPlaceInfo() {
                             Phượng Hoàng, tháp Long Tượng, vườn hữu nghị Asean…
                         </p>
                         <div className='flex justify-center gap-2'>
-                            <a href=' https://www.facebook.com/KDLThacDatanla/' target='_blank'>
+                            <a href='https://cn.tripadvisor.com/Attraction_Review-g317092-d1834476-Reviews-Qingxiu_Mountain-Nanning_Guangxi.html' target='_blank'>
                                 <Button size='lg' color='white'>
                                     Khám phá
                                 </Button>
@@ -102,7 +102,7 @@ export default function SessionPlaceInfo() {
                             Độ...
                         </Typography>
                         <div className='flex justify-center gap-2'>
-                            <a href='https://www.facebook.com/saphirdalathotelofficialpage/' target='_blank'>
+                            <a href='https://www.youtube.com/watch?v=GUEV0MiLTSQ' target='_blank'>
                                 <Button size='lg' color='white'>
                                     Khám phá
                                 </Button>

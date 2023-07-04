@@ -1,92 +1,98 @@
 .background-image-full {
-  /* background: rgb(238, 174, 202);
-  background: -moz-radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
-  );
-  background: -webkit-radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
-  );
-  background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1); */
-  /* background-image: url("../../../public/images/bg-danang.jpg"); */
-  background-image: url("../../../public/images/hero-section.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-  background-position: top;
+    /* background: rgb(238, 174, 202);
+    background: -moz-radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
+    background: -webkit-radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
+    background: radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1); */
+    /* background-image: url("../../../public/images/bg-danang.jpg"); */
+    background-image: url("../../../public/images/hero-section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: top;
 }
+
 .overlay-bg {
-  background-color: #2727278f;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100vh;
+    background-color: #2727278f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
 }
+
 .custom-shape-divider-top-1685952695 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
 
 .flip-countdown-title {
-  color: white;
-  font-weight: bold;
-}
-.flip-countdown {
-  text-align: center;
-  perspective: 400px;
-  margin: 0 auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  --background-color: white !important;
-  --background-bottom-color: white !important;
-  --text-color: #393939 !important;
-  --text-bottom-color: #393939 !important;
-}
-span.flip-countdown-card-sec:hover {
-  --background-color: #393939 !important;
-  --background-bottom-color: #393939 !important;
-  --text-color: white !important;
-  --text-bottom-color: white !important;
-  cursor: pointer;
-}
-.bg-img{
-  background-image: url('../../../public/images/561d0135ef563e086747.jpg');
-  background-size: cover;
-  height: 100vh;
-  background-position: center;
-  position: relative;
-  
-}
-.bg-img::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0.2;
+    color: white;
+    font-weight: bold;
 }
 
-.animation_bottom{
-  border-bottom: 3px solid white;
-  transition: all 2s ease;
-   
+.flip-countdown {
+    text-align: center;
+    perspective: 400px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --background-color: white !important;
+    --background-bottom-color: white !important;
+    --text-color: #393939 !important;
+    --text-bottom-color: #393939 !important;
+}
+
+span.flip-countdown-card-sec:hover {
+    --background-color: #393939 !important;
+    --background-bottom-color: #393939 !important;
+    --text-color: white !important;
+    --text-bottom-color: white !important;
+    cursor: pointer;
+}
+
+.bg-img {
+    background-image: url('../../../public/images/congvienthanhtuson_1.jpeg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+
+}
+
+.bg-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.2;
+}
+
+.animation_bottom {
+    border-bottom: 3px solid white;
+    transition: all 2s ease;
+
 }
