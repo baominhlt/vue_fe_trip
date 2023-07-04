@@ -39,7 +39,14 @@ const firstDay = [
     }, {
         time: "20h00 trở đi",
         content: "Hoạt động tự do",
-    },
+    }, {
+        time: "Note:",
+        content: "- Chúng mình sẽ nghỉ đêm tại khách sạn 5* ở Sùng Tả nha. Sáng hôm sau sẽ dọn đồ sớm để đi Nam Ninh" +
+            " - vậy FTECHers lưu ý không bỏ quên đồ ở khách sạn Sùng Tả.",
+    }, {
+        time: "",
+        content: "- Thời gian có thể được điều chỉnh theo tình hình thực tế.",
+    }
 ];
 const secondDay = [
     {
@@ -154,11 +161,11 @@ export default function SessionCalendar() {
                         </h1>
                         <div className="border-l-2 lg:mt-10 mt-4">
                             <div onClick={() => showModal(1)}
-                                 className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 lg:py-4 py-2 bg-blue-500 text-white rounded mb-2 flex-col md:flex-row space-y-4 md:space-y-0">
+                                 className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 lg:py-4 py-2 bg-blue-300 text-white rounded mb-8 flex-col md:flex-row space-y-4 md:space-y-0">
                                 <div
                                     className="w-5 h-5 bg-blue-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
-                                <div className="w-10 h-1 bg-blue-300 absolute -left-10 z-0"></div>
+                                <div className="w-10 h-1 bg-blue-200 absolute -left-10 z-0"></div>
 
                                 <div className="flex-auto">
                                     <h1 className="text-lg text-white">Ngày 1</h1>
@@ -173,11 +180,11 @@ export default function SessionCalendar() {
                             </div>
 
                             <div onClick={() => showModal(2)}
-                                 className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 lg:py-4 py-2 bg-primary text-white rounded mb-2 flex-col md:flex-row space-y-4 md:space-y-0">
+                                 className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 lg:py-4 py-2 bg-amber-800 text-white rounded mb-8 flex-col md:flex-row space-y-4 md:space-y-0">
                                 <div
-                                    className="w-5 h-5 bg-pink-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
+                                    className="w-5 h-5 bg-amber-900 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
-                                <div className="w-10 h-1 bg-pink-300 absolute -left-10 z-0"></div>
+                                <div className="w-10 h-1 bg-amber-600 absolute -left-10 z-0"></div>
 
                                 <div className="flex-auto">
                                     <h1 className="text-lg text-white">Ngày 2</h1>
@@ -185,7 +192,7 @@ export default function SessionCalendar() {
                                         Khám phá Nam Ninh - thăm thú công viên Thanh Tú Sơn - shopping quên lối về - và
                                         cháy hết mình cùng Gala Dinner
                                     </h1>
-                                    <h3 className="text-gray-300">Ngày 15/07/2023</h3>
+                                    <h3 className="text-white">Ngày 15/07/2023</h3>
                                 </div>
                                 <div className="hidden">
                                     <Button icon={<BsMenuButton color="white" size={24}/>} type='text'/>
@@ -193,11 +200,11 @@ export default function SessionCalendar() {
                             </div>
 
                             <div onClick={() => showModal(3)}
-                                 className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 lg:py-4 py-2 bg-green-600 text-white rounded mb-4 flex-col md:flex-row space-y-4 md:space-y-0">
+                                 className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 lg:py-4 py-2 bg-green-600 text-white rounded mb-8 flex-col md:flex-row space-y-4 md:space-y-0">
                                 <div
-                                    className="w-5 h-5 bg-green-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
+                                    className="w-5 h-5 bg-green-800 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
-                                <div className="w-10 h-1 bg-green-300 absolute -left-10 z-0"></div>
+                                <div className="w-10 h-1 bg-green-400 absolute -left-10 z-0"></div>
 
                                 <div className="flex-auto">
                                     <h1 className="text-lg text-white">Ngày 3</h1>
@@ -211,12 +218,6 @@ export default function SessionCalendar() {
                                 </div>
                             </div>
                         </div>
-                        <h3 className="text-white lg:text-xl sm:text-sm text-base text-left note-background-color">
-                            <p className="text-center lg:text-2xl sm:text-base text-xl"><b>Note: </b></p>
-                            <p>- Chúng mình sẽ nghỉ đêm tại khách sạn 5* ở Sùng Tả nha. Sáng hôm sau sẽ dọn đồ sớm để đi
-                                Nam Ninh - vậy FTECHers lưu ý không bỏ quên đồ ở khách sạn Sùng Tả.</p>
-                            <p>- Thời gian có thể được điều chỉnh theo tình hình thực tế</p>
-                        </h3>
                     </div>
                 </div>
 
