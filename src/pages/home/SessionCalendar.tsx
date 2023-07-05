@@ -9,40 +9,36 @@ import CustomModal from '../../components/Modal/CustomModal';
 const firstDay = [
     {
         time: "04H40",
-        content: "Tập trung tại công ty để di chuyển đi Nam Ninh thôi.",
+        content: "Tập trung tại công ty để di chuyển đi Nam Ninh.",
     }, {
-        time: "05H00",
-        content: "Xe di chuyển đi cửa khẩu Hữu Nghị Quan - Ăn sáng tại điểm dừng (Chi phí tự túc)."
+        time: "05H00 - 08H00",
+        content: "Xe di chuyển đi cửa khẩu Hữu Nghị Quan - Ăn sáng tại điểm dừng."
     }, {
-        time: "08H30 - 09H00",
-        content: "Đến cửa khẩu Hữu Nghị Quan và chúng mình làm thủ tục xuất nhập cảnh cửa khẩu Bằng Tường nhé. " +
-            "Xe và hướng dẫn viên đón đoàn khởi hành đi Bằng Tường - một huyện lỵ của Trung Quốc.",
+        time: "08H30 - 11H30",
+        content: "Đến cửa khẩu Hữu Nghị Quan và làm thủ tục xuất nhập cảnh cửa khẩu Bằng Tường.",
     }, {
         time: "11H30 - 13H00",
         content: "Ăn trưa tại Bằng Tường với các món ăn truyền thống của địa phương.",
     }, {
-        time: "13H30",
+        time: "13H30 - 15H00",
         content: "Xuất phát đi Sùng Tả - một huyện của tình Quảng Tây.",
     }, {
-        time: "15H00",
-        content: "Đến Sùng Tả - nhận phòng khách sạn và nghỉ ngơi.",
+        time: "15H00 - 15H30",
+        content: "Đến Sùng Tả đoàn nhận phòng khách sạn 5*, nghỉ ngơi.",
     }, {
         time: "16H00 - 16H30",
-        content: "Chụp ảnh lưu niệm toàn công ty - FTECHers chuẩn bị áo đồng phục để chúng ta cùng nhau lưu giữ những " +
+        content: "Chụp ảnh lưu niệm toàn công ty - FTECHers chuẩn bị áo đồng phục để cùng nhau lưu giữ những " +
             "kỷ niệm đẹp nha.",
     }, {
         time: "18H00",
         content: "Lên đường đi ăn tối thuiii.",
     }, {
         time: "Sau bữa tối",
-        content: " Cùng nhau đi khám phá Thái Bình Cổ Trấn và check in cảnh đẹp ở đây.",
-    }, {
-        time: "20h00 trở đi",
-        content: "Hoạt động tự do",
+        content: "Cùng nhau đi khám phá Thái Bình Cổ Trấn và check in cảnh đẹp ở đây.",
     }, {
         time: "Note:",
-        content: "- Chúng mình sẽ nghỉ đêm tại khách sạn 5* ở Sùng Tả nha. Sáng hôm sau sẽ dọn đồ sớm để đi Nam Ninh" +
-            " - vậy FTECHers lưu ý không bỏ quên đồ ở khách sạn Sùng Tả.",
+        content: "- Sáng hôm sau sẽ dọn đồ sớm để đi Nam Ninh - vậy FTECHers lưu ý không bỏ quên đồ ở khách sạn " +
+            "Sùng Tả."
     }, {
         time: "",
         content: "- Thời gian có thể được điều chỉnh theo tình hình thực tế.",
@@ -50,52 +46,58 @@ const firstDay = [
 ];
 const secondDay = [
     {
-        time: "07H00",
-        content: "FTECHers Ăn sáng tại khách sạn.",
+        time: "07H00 - 08H00",
+        content: "FTECHers kiểm tra đồ dùng cá nhân và trả phòng. Ăn sáng tại khách sạn.",
     }, {
-        time: "08H00",
-        content: "FTECHers kiểm tra đồ dùng cá nhân và trả phòng.",
+        time: "08H30 - 10H00",
+        content: "Khởi hành đi Nam Ninh bằng đường cao tốc mới “Trung Quốc - Asean”.",
     }, {
-        time: "08H30",
-        content: "Chúng mình cùng khởi hành đi Nam Ninh bằng đường cao tốc mới \"Trung Quốc - Asean\".",
+        time: "10H00 - 11h30",
+        content: "Tham quan công viên Thanh Tú Sơn.",
     }, {
-        time: "11H30",
+        time: "11H30 - 13H30",
         content: "Ăn trưa tại nhà hàng.",
     }, {
-        time: "13H30",
+        time: "14H00 - 14H45",
         content: "Nhận phòng khách sạn và nghỉ ngơi tại Nam Ninh.",
     }, {
-        time: "15H30",
+        time: "15H00 - 17H00",
         content: "Cùng nhau đi mua sắm tại Tam ngõ nhị - khu phố mua sắm sầm uất bậc nhất tại Nam Ninh. " +
-            "(FTECHers không có nhu cầu mua sắm có thể đi chơi tự do).",
+            "(FTECHers không có nhu cầu mua sắm có thể đi chơi tự do)",
     }, {
-        time: "18H30",
-        content: "Lên đồ sương sương để quẩy Gala Dinner thui.",
+        time: "17H00",
+        content: "Di chuyển về khách sạn.",
     }, {
-        time: "20H30 - 21H00",
-        content: "Kết thúc Gala Dinner, chúng ta cùng nhau đi Thăm quan Nanning Everbright City – Nam Ninh Chi Dạ, " +
-            "khu vui chơi và con phố ẩm thực dài nhất thành phố.",
+        time: "18H00 - 20H30",
+        content: "Lên đồ sương sương để quẩy Gala Dinner thui. Tiệc Gala tại khách sạn.",
+    }, {
+        time: "20H30",
+        content: "Kết thúc Gala Dinner, xe đón đoàn đi Thăm quan Nanning Everbright City – Nam Ninh Chi Dạ, khu " +
+            "vui chơi và con phố ẩm thực dài nhất thành phố.",
     }, {
         time: "Kết thúc tham quan",
         content: "Xe sẽ đón mọi người quay trở lại khách sạn.",
+    }, {
+        time: "Hoạt động tự do",
+        content: "",
     }
 ];
 
 const thirdDay = [
     {
         time: "07H00 - 08H00",
-        content: "Ăn sáng tại khách sạn, trả phòng.",
+        content: "Kiểm tra đồ dùng cá nhân và trả phòng. Ăn sáng tại khách sạn.",
     }, {
-        time: "08H30",
+        time: "08H30 - 11H30",
         content: "Xe đón khởi hành đi Bằng Tường.",
     }, {
-        time: "12H00",
+        time: "12H00 - 13H30",
         content: "Ăn trưa tại Bằng Tường.",
     }, {
-        time: "13H30",
+        time: "13H30 - 14H00",
         content: "Đoàn khởi hành về cửa khẩu Hữu Nghị Quan.",
     }, {
-        time: "15H30 - 16H00",
+        time: "14H00 - 16H00",
         content: "Về cửa khẩu Hữu Nghị Quan, làm thủ tục nhập cảnh trở lại Việt Nam, xe đón về Hà Nội.",
     }, {
         time: "19H00",
@@ -141,6 +143,7 @@ export default function SessionCalendar() {
                             {
                                 datePopup.map((e) =>
                                     <li className="flex">
+                                        {e.time == "Note" ? "<br/>" : ""}
                                         <p className="timer w-5/12 text-primary text-lg font-bold">
                                             {e.time}
                                         </p>

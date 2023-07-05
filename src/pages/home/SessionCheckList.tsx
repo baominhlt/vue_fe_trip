@@ -107,7 +107,7 @@ export default function SessionCheckList() {
                   key={e.id}
                   className='item-check lg:w-1/6 sm:w-1/3 w-1/2 flex mt-2'
                 >
-                  <Checkbox className='text-start lg:text-xl sm:text-sm text-base align-middle'>{e.name}</Checkbox>
+                  <Checkbox className='text-start lg:text-xl sm:text-sm text-base items-center'>{e.name}</Checkbox>
                 </div>
               )
             })}
