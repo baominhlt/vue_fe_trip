@@ -92,7 +92,7 @@ export default function SessionSecondPage() {
                                     Hà Nội
                                 </p>
                             </div>
-                            <div className='w-full'>
+                            <div className='w-1/3'>
                                 <motion.div
                                     initial={{x: 0}}
                                     animate={{x: 100}}
@@ -105,17 +105,24 @@ export default function SessionSecondPage() {
                                 <Slider
                                     style={{margin: 4, marginTop: -4}}
                                     range
-                                    value={[0, 40]}
-                                    disabled
-                                />
-                                <Slider
-                                    style={{margin: 4, marginTop: -3}}
-                                    range
-                                    value={[60, 100]}
+                                    value={[0, 100]}
                                     disabled
                                 />
                             </div>
-                            <div className='to-place ml-4'>
+                            <div className='to-place mx-auto'>
+                                <p className='lg:text-2xl text-center mb-0 font-bold text-base whitespace-nowrap'>
+                                    Sùng Tả
+                                </p>
+                            </div>
+                            <div className="w-1/3">
+                                <Slider
+                                    style={{margin: 4, marginBottom: 0}}
+                                    range
+                                    value={[0, 100]}
+                                    disabled
+                                />
+                            </div>
+                            <div className='to-place mx-auto'>
                                 <p className='lg:text-2xl text-center mb-0 font-bold text-base whitespace-nowrap'>
                                     Nam Ninh
                                 </p>
