@@ -17,7 +17,7 @@
     );
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1); */
     /* background-image: url("../../../public/images/bg-danang.jpg"); */
-    background-image: url("../../../public/images/hero-section.jpg");
+    background-image: url("../../../public/images/first_page_pc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -72,7 +72,7 @@ span.flip-countdown-card-sec:hover {
 }
 
 .bg-img {
-    background-image: url('../../../public/images/congvienthanhtuson_1.jpeg');
+    background-image: url('../../../public/images/namninhchida_1.png');
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -95,4 +95,10 @@ span.flip-countdown-card-sec:hover {
     border-bottom: 3px solid white;
     transition: all 2s ease;
 
+}
+
+.session-image-bg {
+    background-image: url("../../../public/images/thaibinhcotran_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

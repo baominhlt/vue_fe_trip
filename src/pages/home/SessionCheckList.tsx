@@ -79,7 +79,7 @@ export default function SessionCheckList() {
   return (
     <>
     <figure className='absolute inset-0'>
-      <img src='/images/bg-sp3.png' alt='bg' className='w-full h-full object-cover'/>
+      <img src='/images/checklist_page.jpg' alt='bg' className='w-full h-full object-cover'/>
     </figure>
     <div className='custom-shape-divider-top-1685952780 h-100vh bg-transparent relative'>
       <div className='w-full'>

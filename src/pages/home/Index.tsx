@@ -203,7 +203,7 @@ export default function Index() {
                 <SessionImage/>
             </div>
             <div className="relative" ref={endPage}>
-                <img src='/images/footer.png' alt='footer' className='w-full h-full object-cover'/>
+                <img src='/images/end_page.jpg' alt='footer' className='w-full h-full object-cover'/>
             </div>
         </div>
     );

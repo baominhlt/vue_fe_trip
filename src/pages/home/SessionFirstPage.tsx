@@ -45,7 +45,7 @@ export default function SessionFirstPage() {
                 <div className="overlay-bg"></div>
                 <div className="header-content relative z-10">
                   <div
-                    className="text-center lg:text-4xl lg:mb-8 text-white max-w-2xl cursor-pointer text-sm"
+                    className="text-center lg:text-4xl lg:mb-8 text-white max-w-2xl cursor-pointer text-xl"
                     ref={titleElement}
                   >
                     Cùng đếm ngược ngày khởi hành thôiiii
