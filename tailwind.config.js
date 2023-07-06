@@ -11,8 +11,8 @@ export default withMT({
   theme: {
     extend: {
       backgroundImage: {
-        bgmobile: "url('/images/bgmb.jpg')",
-        bgfull: "url('/images/hero-section.jpg')"
+        bgmobile: "url('/images/first_page_mobile.jpg')",
+        bgfull: "url('/images/first_page_pc.jpg')"
       }
     },
   },

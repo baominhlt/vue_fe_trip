@@ -136,20 +136,50 @@ export default function SessionCalendar() {
     return (
         <>
             <div className="bg-img w-full h-[100vh]">
-                <CustomModal open={isModalOpen} onOk={handleOk} onCancel={handleCancel} children={
+                <CustomModal open={isModalOpen} onOk={handleOk} onCancel={handleCancel}
+                             width={window.pageYOffset * 2 / 3} children={
                     <>
 
                         <ul className='container p-0'>
                             {
                                 datePopup.map((e) =>
                                     <li className="flex">
-                                        {e.time == "Note" ? "<br/>" : ""}
-                                        <p className="timer w-5/12 text-primary text-lg font-bold">
-                                            {e.time}
-                                        </p>
-                                        <p className="timer w-7/12 text-primary text-lg font-medium">
-                                            {e.content}
-                                        </p>
+                                        {(() => {
+                                            if (e.time === "Note:") {
+                                                return (
+                                                    <p></p>
+                                                )
+                                            }
+                                        })()}
+                                        {(() => {
+                                            if (e.time === "Note:" || e.time === "") {
+                                                return (
+                                                    <p className="timer w-4/12 text-lg font-bold text-red-700">
+                                                        {e.time}
+                                                    </p>
+                                                )
+                                            } else {
+                                                return (<p className="timer w-4/12 text-primary text-lg font-bold">
+                                                    {e.time}
+                                                </p>)
+                                            }
+                                        })()}
+                                        {(() => {
+                                            if (e.time === "Note:" || e.time === "") {
+                                                return (
+                                                    <p className="timer w-8/12 text-red-700 text-lg font-medium">
+                                                        {e.content}
+                                                    </p>
+                                                )
+                                            } else {
+                                                return (
+                                                    <p className="timer w-8/12 text-primary text-lg font-medium">
+                                                        {e.content}
+                                                    </p>
+                                                )
+                                            }
+
+                                        })()}
                                     </li>
                                 )
                             }

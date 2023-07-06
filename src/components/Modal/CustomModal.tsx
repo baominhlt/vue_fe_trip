@@ -1,6 +1,6 @@
 import { Modal } from 'antd';
 
-export default function CustomModal({ zIndex, title, open, onOk, onCancel, children }) {
+export default function CustomModal({ zIndex, title, open, onOk, onCancel, width, children}) {
     return (
         <Modal
             zIndex={zIndex}
@@ -8,6 +8,7 @@ export default function CustomModal({ zIndex, title, open, onOk, onCancel, child
             open={open}
             onOk={onOk}
             onCancel={onCancel}
+            width={width}
         // modalRender={children}
         >
             {children}
