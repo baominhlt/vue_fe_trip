@@ -81,9 +81,9 @@ export default function SessionCheckList() {
     <figure className='absolute inset-0'>
       <img src='/images/checklist_page.jpg' alt='bg' className='w-full h-full object-cover'/>
     </figure>
-    <div className='custom-shape-divider-top-1685952780 h-100vh bg-transparent relative'>
+    <div className='custom-shape-divider-top-1685952780 lg:h-[100vh] h-[120vh] md:h-[120vh] bg-transparent relative'>
       <div className='w-full'>
-        <div className='container flex items-center justify-center flex-col h-[100vh]'>
+        <div className='container items-center justify-center h-[120vh] lg:h-[100vh] flex flex-col'>
           <p className='lg:text-6xl text-primary font-extrabold animate__wobble text-4xl lg:mb-6 mb-1'>
             CHECKLIST
           </p>

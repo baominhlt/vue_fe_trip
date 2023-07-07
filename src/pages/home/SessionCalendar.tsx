@@ -135,7 +135,7 @@ export default function SessionCalendar() {
     };
     return (
         <>
-            <div className="bg-img w-full h-[100vh]">
+            <div className="bg-img w-full lg:h-[100vh] h-[130vh]">
                 <CustomModal open={isModalOpen} onOk={handleOk} onCancel={handleCancel}
                              width={window.pageYOffset * 2 / 3} children={
                     <>
@@ -154,12 +154,12 @@ export default function SessionCalendar() {
                                         {(() => {
                                             if (e.time === "Note:" || e.time === "") {
                                                 return (
-                                                    <p className="timer w-4/12 text-lg font-bold text-red-700">
+                                                    <p className="timer lg:w-4/12 w-6/12 text-lg font-bold text-red-700">
                                                         {e.time}
                                                     </p>
                                                 )
                                             } else {
-                                                return (<p className="timer w-4/12 text-primary text-lg font-bold">
+                                                return (<p className="timer lg:w-4/12 w-6/12 text-primary text-lg font-bold">
                                                     {e.time}
                                                 </p>)
                                             }
@@ -167,13 +167,13 @@ export default function SessionCalendar() {
                                         {(() => {
                                             if (e.time === "Note:" || e.time === "") {
                                                 return (
-                                                    <p className="timer w-8/12 text-red-700 text-lg font-medium">
+                                                    <p className="timer lg:w-8/12 w-6/12 text-red-700 text-lg font-medium">
                                                         {e.content}
                                                     </p>
                                                 )
                                             } else {
                                                 return (
-                                                    <p className="timer w-8/12 text-primary text-lg font-medium">
+                                                    <p className="timer lg:w-8/12 w-6/12 text-primary text-lg font-medium">
                                                         {e.content}
                                                     </p>
                                                 )
