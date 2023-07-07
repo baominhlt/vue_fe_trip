@@ -58,7 +58,7 @@ export default function SessionSecondPage() {
             <figure className='absolute inset-0'>
                 <img src='/images/second_page.jpg' alt='bg' className='w-full h-full object-cover'/>
             </figure>
-            <div className='custom-shape-divider-top-1685952780 lg:h-100vh h-200vh bg-transparent relative'>
+            <div className='custom-shape-divider-top-1685952780 lg:h-100vh h-300vh md:h-300vh bg-transparent relative'>
                 <div className='w-full'>
                     <div className='container flex items-center justify-center flex-col h-[100vh]'>
                         <p
@@ -95,9 +95,9 @@ export default function SessionSecondPage() {
                             <div className='w-1/3'>
                                 <motion.div
                                     initial={{x: 0}}
-                                    animate={{x: window.pageYOffset*8/10}}
+                                    animate={{x: window.innerWidth*5/10}}
                                     transition={{
-                                        duration: 30,
+                                        duration: 5,
                                     }}
                                 >
                                     <BusIcon/>
@@ -162,8 +162,9 @@ export default function SessionSecondPage() {
                                         Thời gian khởi hành:
                                     </h3>
                                     <p className='card-content text-start lg:text-base sm:text-sm text-sm'>
-                                        04H40 ngày 14/07/2023 - FTECHers Hà Nội tập trung <br/>
-                                        05H00 ngày 14/07/2023 - Xe khởi hành đi cửa khẩu Hữu Nghị Quan
+                                        04H40 ngày 14/07/2023<br/>FTECHers Hà Nội tập trung
+                                        <br/><br/>
+                                        05H00 ngày 14/07/2023<br/>Xe khởi hành đi cửa khẩu Hữu Nghị Quan
                                     </p>
                                 </div>
                             </div>
