@@ -202,9 +202,9 @@ export default function SessionCalendar() {
                                 <div className="w-10 h-1 bg-blue-200 absolute -left-10 z-0"></div>
 
                                 <div className="flex-auto">
-                                    <h1 className="text-xl text-white">Ngày 1</h1>
+                                    <h1 className="lg:text-2xl text-xl text-white font-bold">Ngày 1</h1>
                                     <h1 className="lg:text-2xl text-xl font-bold text-white">
-                                        Lên đường đi Sùng Tả; Nam Ninh thôiii
+                                        Sùng Tả & Nam Ninh
                                     </h1>
                                     <h3 className="text-white text-lg">Ngày 14/07/2023</h3>
                                 </div>
@@ -221,7 +221,7 @@ export default function SessionCalendar() {
                                 <div className="w-10 h-1 bg-amber-600 absolute -left-10 z-0"></div>
 
                                 <div className="flex-auto">
-                                    <h1 className="text-xl text-white">Ngày 2</h1>
+                                    <h1 className="lg:text-2xl text-xl text-white font-bold">Ngày 2</h1>
                                     <h1 className="lg:text-2xl text-xl font-bold text-white">
                                         Khám phá Nam Ninh - thăm thú công viên Thanh Tú Sơn - shopping quên lối về - và
                                         cháy hết mình cùng Gala Dinner
@@ -241,7 +241,7 @@ export default function SessionCalendar() {
                                 <div className="w-10 h-1 bg-green-400 absolute -left-10 z-0"></div>
 
                                 <div className="flex-auto">
-                                    <h1 className="text-xl text-white">Ngày 3</h1>
+                                    <h1 className="lg:text-2xl text-xl text-white font-bold">Ngày 3</h1>
                                     <h1 className="lg:text-2xl text-xl font-bold text-white">
                                         Nam Ninh - Bằng Tường - Hữu Nghị Quan - Hà Nội
                                     </h1>

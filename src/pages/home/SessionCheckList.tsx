@@ -6,86 +6,73 @@ const items = [
         id: 1,
     },
     {
-        name: 'Dress code Gala Dinner',
+        name: 'Mũ che nắng',
         id: 2,
     },
     {
-        name: 'Đồ chống nắng',
+        name: 'CCCD (người lớn)',
         id: 3,
     },
     {
-        name: 'Mũ che nắng',
+        name: 'Điện thoại/Ipad',
         id: 4,
     },
     {
-        name: 'Kem chống nắng',
+        name: 'Money Money (đồng Nhân dân tệ)',
         id: 5,
     },
     {
-        name: 'Dù hoặc áo mưa',
+        name: 'Đồ skincare',
         id: 6,
     },
     {
-        name: 'CCCD (người lớn)',
+        name: 'Dress code Gala Dinner',
         id: 7,
     },
     {
-        name: 'Giấy khai sinh (trẻ em)',
+        name: 'Kem chống nắng',
         id: 8,
     },
 
     {
-        name: 'Hộ chiếu',
+        name: 'Giấy khai sinh (trẻ em)',
         id: 9,
     },
     {
-        name: 'Điện thoại/Ipad',
+        name: 'Máy ảnh/Máy quay phim',
         id: 10,
     },
     {
-        name: 'Máy ảnh/Máy quay phim',
+        name: 'Gối chữ U',
         id: 11,
     },
     {
-        name: 'Các loại dây sạc',
+        name: 'Các loại thuốc cá nhân',
         id: 12,
     },
     {
-        name: 'Money Money',
+        name: 'Đồ chống nắng',
         id: 13,
     },
     {
-        name: 'Sim quốc tế',
+        name: 'Dù hoặc áo mưa',
         id: 14,
     },
-
     {
-        name: 'List nhạc thiệt chill',
+        name: 'Hộ chiếu',
         id: 15,
     },
     {
-        name: 'Các loại thuốc cá nhân',
+        name: 'Sim quốc tế',
         id: 16,
     },
     {
-        name: 'Đồ skincare',
+        name: 'Các đồ dùng cá nhân khác',
         id: 17,
     },
     {
-        name: 'Đồ ăn vặt (nếu cần)',
-        id: 18,
-    },
-    {
-        name: 'Gối chữ U',
-        id: 19,
-    },
-    {
-        name: 'Các đồ dùng cá nhân khác',
-        id: 20,
-    },
-    {
         name: 'Một tâm hồn đẹp...',
-        id: 21,
+        id: 18,
     }
 ]
 
@@ -120,7 +107,7 @@ export default function SessionCheckList() {
                                 return (
                                     <div
                                         key={e.id}
-                                        className='item-check lg:w-1/3 sm:w-1/3 w-1/2 flex mt-2'
+                                        className='item-check lg:w-1/6 sm:w-1/3 w-1/2 flex mt-2'
                                     >
                                         <Checkbox
                                             className='text-start lg:text-xl sm:text-sm text-base items-center'>{e.name}</Checkbox>
