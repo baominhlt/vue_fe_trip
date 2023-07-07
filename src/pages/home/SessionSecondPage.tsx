@@ -58,9 +58,9 @@ export default function SessionSecondPage() {
             <figure className='absolute inset-0'>
                 <img src='/images/second_page.jpg' alt='bg' className='w-full h-full object-cover'/>
             </figure>
-            <div className='custom-shape-divider-top-1685952780 lg:h-100vh h-300vh md:h-300vh bg-transparent relative'>
+            <div className='custom-shape-divider-top-1685952780 lg:h-[100vh] h-[150vh] md:h-[150vh] bg-transparent relative'>
                 <div className='w-full'>
-                    <div className='container flex items-center justify-center flex-col h-[100vh]'>
+                    <div className='container items-center justify-center h-[150vh] lg:h-[100vh] flex flex-col'>
                         <p
                             ref={titleElement}
                             className='lg:text-6xl text-primary font-extrabold lg:mb-1 animate__wobble text-4xl'
@@ -95,7 +95,7 @@ export default function SessionSecondPage() {
                             <div className='w-1/3'>
                                 <motion.div
                                     initial={{x: 0}}
-                                    animate={{x: window.innerWidth*5/10}}
+                                    animate={{x: window.outerWidth*5/10}}
                                     transition={{
                                         duration: 5,
                                     }}
