@@ -163,7 +163,7 @@ export default function Index() {
                         <li
                             key={index}
                             onClick={() => handleClick(index)}
-                            className={`p-3  hover:cursor-pointer text-base hover:text-white rounded mx-2 text-white
+                            className={`p-3 hover:cursor-pointer text-base hover:text-white rounded mx-2 text-white
                 } ${e.index == choose ? "text-white font-bold bg-primary" : "font-medium"}`}
                         >
                             {e.icon}
@@ -203,7 +203,7 @@ export default function Index() {
                 <SessionImage/>
             </div>
             <div className="relative" ref={endPage}>
-                <img src='/images/end_page.jpg' alt='footer' className='w-full h-full object-cover'/>
+                <img src='/images/end_page.png' alt='footer' className='w-full h-full object-cover'/>
             </div>
         </div>
     );
