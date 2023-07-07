@@ -159,9 +159,10 @@ export default function SessionCalendar() {
                                                     </p>
                                                 )
                                             } else {
-                                                return (<p className="timer lg:w-4/12 w-6/12 text-primary text-lg font-bold">
-                                                    {e.time}
-                                                </p>)
+                                                return (
+                                                    <p className="timer lg:w-4/12 w-6/12 text-primary text-lg font-bold">
+                                                        {e.time}
+                                                    </p>)
                                             }
                                         })()}
                                         {(() => {
@@ -187,25 +188,25 @@ export default function SessionCalendar() {
                     </>
                 } zIndex={100} title={<h3 className='font-bold text-2xl text-primary'>Lịch trình</h3>}/>
 
-                <div className="w-full flex items-center container">
-                    <div className="w-10/12 md:w-7/12 lg:6/12 mx-auto relative h-[100vh]">
+                <div className="w-full flex items-center container justify-center flex-col h-[150vh] lg:h-[100vh]">
+                    <div className="lg:w-10/12 mx-auto relative h-[150vh] lg:h-[100vh]">
                         <h1 className="lg:text-6xl text-center font-bold text-white md:text-4xl text-2xl">
                             Timeline
                         </h1>
                         <div className="border-l-2 lg:mt-10 mt-4">
                             <div onClick={() => showModal(1)}
-                                 className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 lg:py-4 py-2 bg-blue-300 text-white rounded mb-8 flex-col md:flex-row space-y-4 md:space-y-0">
+                                 className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 lg:py-4 py-2 bg-blue-400 text-white rounded mb-8 flex-col md:flex-row space-y-4 md:space-y-0">
                                 <div
                                     className="w-5 h-5 bg-blue-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
                                 <div className="w-10 h-1 bg-blue-200 absolute -left-10 z-0"></div>
 
                                 <div className="flex-auto">
-                                    <h1 className="text-lg text-white">Ngày 1</h1>
-                                    <h1 className="lg:text-xl text-lg font-bold text-white">
+                                    <h1 className="text-xl text-white">Ngày 1</h1>
+                                    <h1 className="lg:text-2xl text-xl font-bold text-white">
                                         Lên đường đi Sùng Tả; Nam Ninh thôiii
                                     </h1>
-                                    <h3 className="text-white">Ngày 14/07/2023</h3>
+                                    <h3 className="text-white text-lg">Ngày 14/07/2023</h3>
                                 </div>
                                 <div className="hidden">
                                     <Button icon={<BsMenuButton color="white" size={24}/>} type='text'/>
@@ -220,12 +221,12 @@ export default function SessionCalendar() {
                                 <div className="w-10 h-1 bg-amber-600 absolute -left-10 z-0"></div>
 
                                 <div className="flex-auto">
-                                    <h1 className="text-lg text-white">Ngày 2</h1>
-                                    <h1 className="lg:text-xl text-lg font-bold text-white">
+                                    <h1 className="text-xl text-white">Ngày 2</h1>
+                                    <h1 className="lg:text-2xl text-xl font-bold text-white">
                                         Khám phá Nam Ninh - thăm thú công viên Thanh Tú Sơn - shopping quên lối về - và
                                         cháy hết mình cùng Gala Dinner
                                     </h1>
-                                    <h3 className="text-white">Ngày 15/07/2023</h3>
+                                    <h3 className="text-white text-lg">Ngày 15/07/2023</h3>
                                 </div>
                                 <div className="hidden">
                                     <Button icon={<BsMenuButton color="white" size={24}/>} type='text'/>
@@ -240,11 +241,11 @@ export default function SessionCalendar() {
                                 <div className="w-10 h-1 bg-green-400 absolute -left-10 z-0"></div>
 
                                 <div className="flex-auto">
-                                    <h1 className="text-lg text-white">Ngày 3</h1>
-                                    <h1 className="lg:text-xl text-lg font-bold text-white">
+                                    <h1 className="text-xl text-white">Ngày 3</h1>
+                                    <h1 className="lg:text-2xl text-xl font-bold text-white">
                                         Nam Ninh - Bằng Tường - Hữu Nghị Quan - Hà Nội
                                     </h1>
-                                    <h3 className="text-white">Ngày 16/07/2023</h3>
+                                    <h3 className="text-white text-lg">Ngày 16/07/2023</h3>
                                 </div>
                                 <div className="hidden">
                                     <Button icon={<BsMenuButton color="white" size={24}/>} type='text'/>

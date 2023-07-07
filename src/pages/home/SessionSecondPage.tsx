@@ -90,6 +90,9 @@ export default function SessionSecondPage() {
                             <div className='from-place mr-4'>
                                 <p className='lg:text-2xl text-center mb-0 font-bold text-base md:whitespace-nowrap'>
                                     Hà Nội
+                                    <p className="lg:text-xl text-center mb-0 text-sm md:whitespace-nowrap">
+                                        Việt Nam
+                                    </p>
                                 </p>
                             </div>
                             <div className='w-1/3'>
@@ -112,6 +115,9 @@ export default function SessionSecondPage() {
                             <div className='from-place mx-auto'>
                                 <p className='lg:text-2xl text-center mb-0 font-bold text-base md:whitespace-nowrap'>
                                     Sùng Tả
+                                    <p className="lg:text-xl text-center mb-0 text-sm md:whitespace-nowrap">
+                                        Trung Quốc
+                                    </p>
                                 </p>
                             </div>
                             <div className="w-1/3 h-full flex flex-col justify-end align-bottom">
@@ -125,6 +131,9 @@ export default function SessionSecondPage() {
                             <div className='from-place ml-4'>
                                 <p className='lg:text-2xl text-center mb-0 font-bold text-base md:whitespace-nowrap'>
                                     Nam Ninh
+                                    <p className="lg:text-xl text-center mb-0 text-sm md:whitespace-nowrap">
+                                        Trung Quốc
+                                    </p>
                                 </p>
                             </div>
                         </div>
@@ -147,12 +156,11 @@ export default function SessionSecondPage() {
                                         Liên hệ hỗ trợ:{' '}
                                     </h3>
                                     <p className='card-content text-start lg:text-base sm:text-sm text-sm'>
-                                        Trưởng ban tổ chức: chị Nguyễn Thạch Ánh - 0902209494 <br/>
-                                        Phó ban tổ chức: chị Lưu Thị Mến - 0979054002 <br/>
-                                        Trưởng xe 1: Trương Thị Hương - 0963970521 <br/>
-                                        Trưởng xe 2: Đoàn Hoài Linh - 0828152525 <br/>
-                                        Trưởng xe 3: Ngô Thị Phương Duyên - 0372647468 <br/>
-                                        Trưởng xe 4: Đỗ Danh Dũng - 0343650188
+                                        Trưởng ban tổ chức: Ms. Nguyễn Thạch Ánh - 0902209494 <br/>
+                                        Phó ban tổ chức: Ms. Lưu Thị Mến - 0979054002 <br/>
+                                        Trưởng xe 1: Ms. Trương Thị Hương - 0963970521 <br/>
+                                        Trưởng xe 2: Ms. Đoàn Hoài Linh - 0828152525 <br/>
+                                        Trưởng xe 3: Ms. Ngô Thị Phương Duyên - 0372647468
                                     </p>
                                 </div>
                             </div>
@@ -162,9 +170,11 @@ export default function SessionSecondPage() {
                                         Thời gian khởi hành:
                                     </h3>
                                     <p className='card-content text-start lg:text-base sm:text-sm text-sm'>
-                                        04H40 ngày 14/07/2023<br/>FTECHers Hà Nội tập trung
-                                        <br/><br/>
-                                        05H00 ngày 14/07/2023<br/>Xe khởi hành đi cửa khẩu Hữu Nghị Quan
+                                        Thứ 6, ngày 14/07/2023
+                                        <br/>
+                                        - 04H40: FTECHers Hà Nội tập trung.
+                                        <br/>
+                                        - 05H00: Xe xuất phát đi Cửa khẩu Hữu Nghị Quan.
                                     </p>
                                 </div>
                             </div>
