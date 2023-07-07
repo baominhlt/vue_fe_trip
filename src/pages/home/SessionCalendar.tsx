@@ -21,10 +21,10 @@ const firstDay = [
         content: "Ăn trưa tại Bằng Tường với các món ăn truyền thống của địa phương.",
     }, {
         time: "13H30 - 15H00",
-        content: "Xuất phát đi Sùng Tả - một huyện của tình Quảng Tây.",
+        content: "Xuất phát đi Sùng Tả - một huyện của tỉnh Quảng Tây.",
     }, {
         time: "15H00 - 15H30",
-        content: "Đến Sùng Tả đoàn nhận phòng khách sạn 5*, nghỉ ngơi.",
+        content: "Đến Sùng Tả đoàn nhận phòng khách sạn 5* và nghỉ ngơi.",
     }, {
         time: "16H00 - 16H30",
         content: "Chụp ảnh lưu niệm toàn công ty - FTECHers chuẩn bị áo đồng phục để cùng nhau lưu giữ những " +
@@ -37,7 +37,7 @@ const firstDay = [
         content: "Cùng nhau đi khám phá Thái Bình Cổ Trấn và check in cảnh đẹp ở đây.",
     }, {
         time: "Note:",
-        content: "- Sáng hôm sau sẽ dọn đồ sớm để đi Nam Ninh - vậy FTECHers lưu ý không bỏ quên đồ ở khách sạn " +
+        content: "- Sáng hôm sau sẽ dọn đồ sớm để đi Nam Ninh - FTECHers lưu ý không bỏ quên đồ ở khách sạn " +
             "Sùng Tả."
     }, {
         time: "",
@@ -62,7 +62,7 @@ const secondDay = [
         content: "Nhận phòng khách sạn và nghỉ ngơi tại Nam Ninh.",
     }, {
         time: "15H00 - 17H00",
-        content: "Cùng nhau đi mua sắm tại Tam ngõ nhị - khu phố mua sắm sầm uất bậc nhất tại Nam Ninh. " +
+        content: "Cùng nhau đi mua sắm tại Tam Ngõ Nhị - khu phố mua sắm sầm uất bậc nhất tại Nam Ninh. " +
             "(FTECHers không có nhu cầu mua sắm có thể đi chơi tự do)",
     }, {
         time: "17H00",

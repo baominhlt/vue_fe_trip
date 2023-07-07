@@ -97,7 +97,7 @@ export default function SessionSecondPage() {
                                     initial={{x: 0}}
                                     animate={{x: window.outerWidth*5/10}}
                                     transition={{
-                                        duration: 5,
+                                        duration: 60,
                                     }}
                                 >
                                     <BusIcon/>
