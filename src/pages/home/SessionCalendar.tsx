@@ -135,7 +135,7 @@ export default function SessionCalendar() {
     };
     return (
         <>
-            <div className="bg-img w-full lg:h-[100vh] h-[130vh]">
+            <div className="bg-img w-full h-[100vh]">
                 <CustomModal open={isModalOpen} onOk={handleOk} onCancel={handleCancel}
                              width={window.pageYOffset * 2 / 3} children={
                     <>
@@ -188,12 +188,12 @@ export default function SessionCalendar() {
                     </>
                 } zIndex={100} title={<h3 className='font-bold text-2xl text-primary'>Lịch trình</h3>}/>
 
-                <div className="w-full flex items-center container justify-center flex-col h-[150vh] lg:h-[100vh]">
-                    <div className="lg:w-10/12 mx-auto relative h-[150vh] lg:h-[100vh]">
+                <div className="w-full flex items-center container justify-center flex-col h-[100vh]">
+                    <div className="lg:w-10/12 mx-auto relative h-[150vh] lg:h-[100vh] flex flex-col items-center justify-center">
                         <h1 className="lg:text-6xl text-center font-bold text-white md:text-4xl text-2xl">
                             Timeline
                         </h1>
-                        <div className="border-l-2 lg:mt-10 mt-4">
+                        <div className="border-l-2 lg:mt-10 mt-12">
                             <div onClick={() => showModal(1)}
                                  className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 lg:py-4 py-2 bg-blue-400 text-white rounded mb-8 flex-col md:flex-row space-y-4 md:space-y-0">
                                 <div
@@ -254,7 +254,6 @@ export default function SessionCalendar() {
                         </div>
                     </div>
                 </div>
-
             </div>
         </>
 
